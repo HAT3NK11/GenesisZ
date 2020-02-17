@@ -30,13 +30,13 @@ namespace GenesisZ.Items.Enemies
 
         public override float SpawnChance(NPCSpawnInfo spawnInfo)
         {
-            return SpawnCondition.OverworldNightMonster.Chance * 0.4f;
+            return SpawnCondition.OverworldNightMonster.Chance * 0.6f;
         }
 
         public override void NPCLoot()
         {
-            Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("CryoliteOre"), Main.rand.Next(0, 2));
-            Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("BauxiteOre"), Main.rand.Next(0, 2));
+            Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("CryoliteOre"), Main.rand.Next(1, 5));
+            Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("BauxiteOre"), Main.rand.Next(1, 5));
         }
     }
 }

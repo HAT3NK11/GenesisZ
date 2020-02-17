@@ -1,11 +1,22 @@
 GenesisZ Adds:
 
+
+Update 0.1:
+
 1 New Boss
 2 New Enemies
 5 New Weapons
 2 New Ores
 2 New Tools
 1 New Bar
+
+Update 0.13:
+
+3 New Weapons
+Flesh Wings Nerfed
+Boss Updated
+Bauxite and Cryolite Easier to get 
+Item Pickup Glitch Fixed
 
 And other things for you to find out
 
@@ -15,4 +26,6 @@ More Updates Soon!
 
 Programming By NK11 
 Spriting By Artist_Zero
+
+
 

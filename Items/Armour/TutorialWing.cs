@@ -25,31 +25,31 @@ namespace GenesisZ.Items.Armour
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.wingTimeMax = 40;
+            player.wingTimeMax = 30;
         }
 
         public override void VerticalWingSpeeds(Player player, ref float ascentWhenFalling, ref float ascentWhenRising, ref float maxCanAscendMultiplier, ref float maxAscentMultiplier, ref float constantAscend)
         {
-            ascentWhenFalling = 2.4f;
-            ascentWhenRising = 1.2f;
-            maxCanAscendMultiplier = 1.5f;
-            maxAscentMultiplier = 2f;
+            ascentWhenFalling = 1.0f;
+            ascentWhenRising = 1.0f;
+            maxCanAscendMultiplier = 1.2f;
+            maxAscentMultiplier = 1.5f;
             constantAscend = 0.125f;
         }
 
         public override void HorizontalWingSpeeds(Player player, ref float speed, ref float acceleration)
         {
-            speed = 10f;
-            acceleration *= 2.75f;
+            speed = 4.5f;
+            acceleration *= 2f;
         }
 
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(null, "Vein", 10);
-            recipe.AddIngredient(null, "FleshChunk", 10);
-            recipe.AddIngredient(null, "Artery", 10);
-            recipe.AddIngredient(ItemID.Feather , 10);
+            recipe.AddIngredient(null, "FleshChunk", 6);
+            recipe.AddIngredient(null, "Artery", 8);
+            recipe.AddIngredient(ItemID.Feather , 5);
             recipe.AddTile(TileID.Sawmill);
             recipe.SetResult(this);
             recipe.AddRecipe();

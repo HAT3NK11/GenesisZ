@@ -53,10 +53,14 @@ namespace GenesisZ.Items.Bosses
             {
                 player.QuickSpawnItem(mod.ItemType("ScamSpinner"));
             }
-
-
-
+            if (Main.rand.Next(2) == 0)
+            {
+                player.QuickSpawnItem(mod.ItemType("StaticScabbard"));
             }
+
+
+
+        }
 
     }
 }   
