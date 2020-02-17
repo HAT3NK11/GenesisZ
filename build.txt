@@ -1,4 +1,4 @@
 displayName = GenesisZ
 author = NK11
-version = 0.13
+version = 0.131
 homepage = https://github.com/HAT3NK11/GenesisZ
