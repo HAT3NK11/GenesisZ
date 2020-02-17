@@ -18,6 +18,10 @@ Boss Updated
 Bauxite and Cryolite Easier to get 
 Item Pickup Glitch Fixed
 
+Update 0.131:
+
+Added Picture
+
 And other things for you to find out
 
 
